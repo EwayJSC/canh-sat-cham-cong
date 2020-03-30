@@ -1,0 +1,6 @@
+flask==1.0.0
+requests_toolbelt==0.8.0
+slackclient==1.2.1
+names==0.3.0
+airtable-python-wrapper
+gunicorn
