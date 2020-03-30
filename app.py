@@ -8,6 +8,11 @@ from utils.convert_vnm import convert
 app = Flask(__name__)
 
 
+@app.route("/", methods=["GET"])
+def ok():
+    return "Successfully installed!"
+
+
 @app.route("/slackbot", methods=["POST"])
 def slack_bot():
     """
